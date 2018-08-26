@@ -16,7 +16,10 @@
   <div id="videos">
     <video id="localVideo" autoplay muted></video>
     <video id="remoteVideo" autoplay></video>
+    
   </div>
+  <video id="webCamWindow" autoplay></video>
+  <div id="movement"></div>
 
   
 
@@ -29,7 +32,13 @@
   <script src="/socket.io/socket.io.js"></script>
   <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
   <script src="js/main.js"></script>
-  
+
+  <script type="text/javascript" src="js/global.js"></script>
+  <script type="text/javascript" src="js/MotionDetector/WebCamCapture.js"></script>
+  <script type="text/javascript" src="js/MotionDetector/ImageCompare.js"></script>
+  <script type="text/javascript" src="js/MotionDetector/Core.js"></script>
+  <script type="text/javascript" src="js/main2.js"></script>
+
 </body>
 
 </html>
