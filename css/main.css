@@ -5,4 +5,25 @@ body {
 video {
   max-width: 100%;
   width: 320px;
+  border-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #bdc3c7;
+  margin: 10px;
+  transform: rotateY(180deg);
 }
+
+h1{
+  color: red;
+}
+
+#videocomponents{
+  background-color: #c0392b;
+}
+
+/* If video needs some Shades use following code
+video {
+filter: blur(4px) invert(1) opacity(0.5);
+}
+*/
+
